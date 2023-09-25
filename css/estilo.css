@@ -18,6 +18,7 @@ body{
     padding: 0px 20px;
     z-index: 1000;
     text-align: right;
+    border-bottom: 1px solid #25025e;
 }
     .topo a{
     margin-right: 25px;
@@ -37,24 +38,54 @@ body{
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.5);;
 }
-h1, h2, .portifolio h3{
+.largura{
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+
     color: #fff;
 }
-.div h3, .div h2{
+.tamanho-h2{
+    font-size: 19px;
+}
+h1, .portifolio h3{
+    color: #fff;
+    font-size: 25px;
+}
+.div h3{
     font-size: 20px;
 }
 .home{
     margin-top: 80px;
 }
-h1{
-    text-decoration: underline #25025e;
+.sublinhado-roxo{
+    border-bottom: 2px dashed #25025e;
+    border-top: 2px dashed #25025e;
+    padding-right: 5px;
+}
+.S{
+    border-right: 2px dashed #25025e;
+}
+
+.N{
+    border-left: 2px dashed #25025e;
+}
+.amarelo{
+    color: rgb(219, 219, 3);
+}
+
+.bolinha{
+    color: #474747;
+    margin-right: 5px;
 }
 .estilo{
     color: white;
     text-decoration: underline #25025e;
 }
 .eu{
-    border: 5px solid #25025e;
+    border: 3px solid #25025e;
 }
 .sobre, .contato{
     background-color: rgba(255, 255, 255, 0.5);
