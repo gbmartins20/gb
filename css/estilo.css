@@ -124,6 +124,6 @@ h1, .portifolio h3{
     color: rgb(40, 40, 255);
     text-decoration: none;
 }
-.fecha-titulo h3{
+h3 .fecha-titulo {
     color="#fff";
 }
